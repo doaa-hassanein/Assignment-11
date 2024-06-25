@@ -1,0 +1,56 @@
+body {
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+}
+
+.group {
+
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+
+.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+
+main a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+p {
+    font-size: large;
+}
+
+
+.logout {
+
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353f;
+}
+
+.navbar .btn {
+    color: rgba(255, 255, 255, .5);
+}
+.navbar .btn:hover {
+    color: rgba(255, 255, 255, .8);
+}
+
+.homenav {
+    padding: 0 100px;
+}
